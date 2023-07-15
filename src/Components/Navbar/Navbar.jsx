@@ -3,6 +3,7 @@ import React from "react";
 // Icons Import
 import { SiConsul } from "react-icons/si";
 import { BsPhoneVibrate } from "react-icons/bs";
+import { AiOutlineGlobal } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,10 @@ const Navbar = () => {
           <li className="flex">
             <BsPhoneVibrate /> Support
           </li>
-          <li className="flex">Languages</li>
+          <li className="flex">
+            {" "}
+            <AiOutlineGlobal /> Languages
+          </li>
         </div>
       </div>
     </div>
