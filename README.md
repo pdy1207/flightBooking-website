@@ -16,4 +16,7 @@ https://pixabay.com/videos/sea-beach-ocean-horizon-water-6399/
 
 scroll 
 https://scrollbar.app/
+
+vite react 배포
+https://doridori-samsam.tistory.com/31
 ```
