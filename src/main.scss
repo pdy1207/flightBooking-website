@@ -350,6 +350,9 @@ h2{
 
 // Support 스타일링 =========================>
 .support{
+    p{
+        color: var(--textColor);
+    }
     .sectionContainer{
         .titlesDiv{
             text-align: center;
@@ -448,6 +451,150 @@ h2{
                 }
                 .colorTwo{
                     background: var(--colorTwo);
+                }
+                p{
+                    color: var(--textColor);
+                }
+            }
+        }
+    }
+}
+
+// Lounge 스타일링 =========================>
+
+.lounge{
+    .sectionContainer{
+        gap : 1.5rem;
+        .imgDiv{
+            margin: auto;
+            img{
+                width: 100%;
+                max-width: 430px;
+                border-radius: 20px;
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            }
+        }
+
+        .textDiv{
+            .grids{
+                margin-top: 1rem;
+                gap: 1.5rem;
+                .singleGrid{
+                    .gridTitle{
+                        display: block;
+                        padding-bottom: .5rem;
+                        font-weight: 500;
+                        color: var(--blackColor);
+                    }
+                    p{
+                        color: var(--textColor);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Travelers 스타일링 =========================>
+
+.travelers{
+    .sectionContainer{
+        text-align: center;
+        .travelersContainer{
+            margin-top: 1rem;
+            gap: 1.5rem;
+
+            .singleTraveler{
+                position: relative;
+                height: 320px;
+                width: 85%;
+                max-width: 250px;
+                overflow: hidden;
+                border-radius: 10rem;
+                gap: 1rem;
+                margin: auto;
+
+                .destinationImage, .travlerImage ,.travelerName {
+                    position: absolute;
+                    
+                }
+                .destinationImage{
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    object-fit: cover;
+                }
+                .travlerImage{
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    bottom: 30px;
+                    left: 40%;
+                    transform: translateX(-50%);
+                    border: 5px solid rgba(255,255,255,0.637);
+                    transition: var(--transition);
+                    animation: animated 2.3s infinite;
+                }
+
+                @keyframes animated {
+                    0%{
+                        transform: translateY(0px);
+                    }
+                    50%{
+                        transform: translateY(8px);
+                    }
+                    100%{
+                        transform: translateY(0px);
+                    }
+                }
+                .travelerName{
+                    bottom: -100%;
+                    width: 100%;
+                    height: max-content;
+                    background: var(--whiteColor);
+                    padding: 1.5rem 1rem;
+                    transition: var(--transition);
+                    animation: animatedBorders 2.3s infinite;
+
+
+                    span{
+                        display: block;
+                        color: black;
+                        font-weight: 700;
+
+                    }
+                    p{
+                        color: var(--PrimaryColor);
+                        font-style: italic;
+                    }
+                }
+
+                @keyframes animatedBorders {
+                    0%{
+                        border-radius: 0rem;
+                    }
+                    50%{
+                        border-radius: 2rem;
+
+                    }
+                    100%{
+                        border-radius: 0rem;
+                    }
+                }
+                
+                &:hover{
+                    .travelerName{
+                        bottom: 0;
+                        transition: 1s ease-in-out;
+                    }
+                    .travlerImage{
+                        bottom: 110px;
+                        transition: 1s ease-in-out;
+                    }
                 }
             }
         }

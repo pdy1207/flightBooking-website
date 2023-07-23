@@ -1,7 +1,7 @@
 import React from "react";
 
 // Imported Images =======================>
-import gridImage from "../../assets/gridImage.png";
+import imageGrid from "../../assets/image-grid.png";
 
 const Support = () => {
   return (
@@ -47,7 +47,7 @@ const Support = () => {
           </div>
 
           <div className="imgDiv">
-            <img src={gridImage} />
+            <img src={imageGrid} />
           </div>
         </div>
       </div>
