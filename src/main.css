@@ -905,8 +905,8 @@ h2 {
 }
 @media screen and (min-width: 1440px) {
   .home .homeImages .plane {
-    width: 80%;
-    top: -70%;
+    width: 70%;
+    top: -80%;
   }
 }
 ::-moz-selection {
