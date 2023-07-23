@@ -710,3 +710,65 @@ h2{
         }
     }
 }
+
+// MEDIA SCREEN STYLING =======================>
+
+@media screen and (min-width: 480px){
+    // Home section styling =================>
+    .home{
+        padding-top: 12rem;
+    }
+    // Search section styling =================>
+    .search {
+        .sectionContainer{
+            .searchInputs{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+
+    // Travel section styling =================>
+    .travelers{
+        .sectionContainer{
+            .travelersContainer{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+
+    // Subscribe section styling =================>
+    .subscribe{
+        .sectionContainer{
+            max-width: 80%;
+            margin: auto;
+
+            .inputDiv{
+                flex-direction: row;
+                padding: 0 .5rem;
+                border-radius: 3rem;
+            }
+        }
+    }
+
+
+    // Footer section styling =================>
+    .footer{
+        .sectionContainer{
+            align-items: flex-start;
+            grid-template-columns: repeat(2,1fr);
+            .footerLinks{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 570px){
+    // Home section styling ===================>
+    .home{
+        .mainText{
+            width: 80%;
+        }
+    }
+}
