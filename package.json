@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://pdy1207.github.io/flightBooking-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,5 +26,5 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "vite": "^4.4.0"
   },
-  "homepage": "https://pdy1207.github.io/flightBooking-website/"
+ 
 }
