@@ -697,15 +697,15 @@ h2 {
   .home .mainText {
     width: 80%;
   }
-  .homeImages .videoDiv {
+  .home .homeImages .videoDiv {
     width: 80%;
   }
-  .homeImages .videoDiv .video {
+  .home .homeImages .videoDiv .video {
     height: 100%;
     width: 100%;
     border-radius: 15rem;
   }
-  .homeImages .plane {
+  .home .homeImages .plane {
     width: 95%;
     top: -20%;
   }
@@ -808,5 +808,23 @@ h2 {
   }
   .travelers .sectionContainer .travelersContainer {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 960px) {
+  .home {
+    padding-top: 13rem;
+  }
+  .home .mainText {
+    width: 70%;
+    padding-bottom: 1.5rem;
+    font-size: 22px;
+    line-height: 4rem;
+  }
+  .search .sectionContainer .searchInputs {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .travelers .sectionContainer .travelersContainer {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem 0;
   }
 }/*# sourceMappingURL=main.css.map */
