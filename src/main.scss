@@ -291,6 +291,7 @@ h2{
                 border-radius: 3rem;
                 width: 80%;
                 text-align: center;
+                cursor: pointer;
                 &:hover{
                     background: var(--PrimaryColor);
                     color: var(--whiteColor);
@@ -344,6 +345,9 @@ h2{
                         }
                     }
                 }
+            }
+            .btnBlock{
+                justify-content: center;
             }
         }
     }
@@ -1065,4 +1069,148 @@ h2{
         }
     }
 }
+}
+
+@media screen and (min-width: 1024px){
+    // Default Styling ===========================>
+    p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .section{
+        padding: 6rem 0 4rem;
+    }
+    .container{
+        width: 75%;
+        margin: auto;    
+    }
+    // Navbar Styling ===========================>
+    .navBar{
+        .navBarOne, .navBarTwo{
+            padding: 1.5rem 5rem;
+        }
+
+        .navbar_With_Bg{
+            padding: 0 5rem;
+        }
+    }
+
+     // Home section styling ===================>
+     .home{
+          .mainText{
+            width: 60%;
+            font-size: 25px;
+            line-height: 4rem;
+          }
+          .homeImages{
+            .videoDiv{
+                width: 90%;
+                height: 300px;
+                .video{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 15rem;
+                }
+            }
+            .plane{
+                width: 90%;
+                top: -60%;
+            }
+          }
+      }
+
+    // Search section styling =================>
+    .search {
+        .sectionContainer{
+            .btns{
+                width: 50%;
+            }                     
+            
+        }
+    }
+}
+
+@media screen and (min-width: 1106px){
+      // Subscribe section styling =================>
+      .subscribe{
+        .sectionContainer{
+            max-width: 60%;
+        }
+    }
+}
+
+@media screen and (min-width: 1332px){
+    // Navbar Styling ===========================>
+    .navBar{
+        .navBarOne{
+            .menu{
+                gap: 1rem;
+                .listItem{
+                    padding: 0 1.5rem;
+                    font-size: 14px;
+                }
+            }
+            
+        }
+    }
+
+    // Support section styling =================>
+    .support{
+        .sectionContainer{
+            .infoDiv{
+                gap: 1rem;
+
+                .textDiv{
+                    .singleInfo{
+                        p{
+                            max-width: 500px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+
+      // Subscribe section styling =================>
+      .subscribe{
+        .sectionContainer{
+            max-width: 50%;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+     // Home section styling ===================>
+     .home{
+        .homeImages{
+          .plane{
+              width: 80%;
+              top: -70%;
+          }
+        }
+    }
+
+}
+
+
+::selection{
+    background: var(--PrimaryColor);
+    color: var(--whiteColor);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--greyBg);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--PrimaryColor);
+    border-radius: 10px;
 }
