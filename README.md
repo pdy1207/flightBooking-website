@@ -72,7 +72,7 @@ $ npm run dev
 ![vite](https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=fff)
 
 ## 화면 소개 🏠
-| 메인 페이지  |  예 페이지   |
+| 메인 페이지  |  예약 페이지   |
 | :-------------------------------------------: | :------------: |
 |  <img width="500" src="https://github.com/pdy1207/Vuebangapp/assets/110442250/c28057ce-59ca-471b-839e-73e8303a0941"/> |  <img width="500" src="https://github.com/pdy1207/Vuebangapp/assets/110442250/fe437e93-e068-4ad0-89de-ac4ad135e17b"/>|  
 | 세부 일부 페이지   |   세부 일부 페이지   |  
